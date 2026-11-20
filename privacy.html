@@ -13,8 +13,10 @@
 <ul>
 <li><b>Your iPhone and your iCloud Drive.</b> Stored under your Apple Account. The developer has no access.</li>
 <li><b>Email (optional).</b> If you send the CSV by email, it goes through your own Mail account to the address you choose.</li>
+<li><b>Gmail automatic email (optional).</b> If you connect Gmail, RunnerSync signs in to your Google account on your iPhone and, after each workout, sends workouts.csv from your Gmail to the address you choose. It requests only the <code>gmail.send</code> permission (plus your email address to show which account is connected), so it can send but cannot read, delete or change any of your email. Nothing passes through a RunnerSync server. You can disconnect in RunnerSync › Settings or at myaccount.google.com › Security › Third-party connections.</li>
 <li><b>Google Sheets (optional).</b> If you connect Google Sheets, RunnerSync signs in to your Google account on your iPhone and adds your workouts to a spreadsheet it creates in your own Google Drive. It requests only the <code>drive.file</code> permission, so it can see only that one file, not the rest of your Drive. The sign-in token is kept in your iPhone's Keychain. You can disconnect in RunnerSync › Settings or at myaccount.google.com › Security › Third-party connections.</li>
 </ul>
+<p>RunnerSync's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Data from Google is used only to provide these features to you, is never transferred to the developer or anyone else, and is never used for advertising.</p>
 
 <h2>No tracking</h2>
 <p>RunnerSync has no analytics, no advertising, no tracking and no account. Apple may provide the developer with anonymous crash and usage statistics if you have chosen to share them with app developers in iOS Settings.</p>

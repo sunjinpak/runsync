@@ -10,7 +10,7 @@
 <li>Updates by itself after each workout. You don't need to open the app.</li>
 <li>Includes distance, pace, heart rate, calories, elevation gain, cadence, running power, stride length, vertical oscillation and ground contact time.</li>
 <li>Kilometers or miles, comma or semicolon CSV (for Excel in Europe and South America), 9 languages.</li>
-<li>Optional: email the file after each workout, a fully automatic daily email with the Shortcuts app, or a row per workout in your own Google Sheet.</li>
+<li>Optional: email the file after each workout, a fully automatic email after each workout (Gmail or the Shortcuts app), or a row per workout in your own Google Sheet.</li>
 </ul>
 
 <h2>Getting started</h2>
@@ -20,12 +20,13 @@
 <li>Keep working out. The files update after each workout.</li>
 </ol>
 
-<h2>Fully automatic email</h2>
+<h2>Automatic email after each workout</h2>
+<p><b>Gmail:</b> RunnerSync › Settings › Connect Gmail. After every workout RunnerSync sends workouts.csv from your own Gmail. It can only send; it cannot read your email.</p>
+<p><b>Any other email (Outlook, iCloud Mail and more):</b></p>
 <ol>
-<li>Shortcuts app › Automation › New Automation › Time of Day (for example 9:00 PM, Daily).</li>
-<li>Add the action RunnerSync › Get Workouts CSV.</li>
-<li>Add Mail › Send Email, enter your address and turn off Show Compose Sheet.</li>
-<li>Choose Run Immediately.</li>
+<li>On your iPhone, add the <a href="RunnerSync-Email.shortcut">RunnerSync Email shortcut</a>. It asks for your email address once.</li>
+<li>Shortcuts app › Automation › + › Apple Watch Workout › Ends › Run Immediately › Next.</li>
+<li>Choose RunnerSync Email. Done.</li>
 </ol>
 
 <h2>Troubleshooting</h2>
